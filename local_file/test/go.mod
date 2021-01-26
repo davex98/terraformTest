@@ -1,4 +1,4 @@
-module github.com/davex98/terraformTest/local_file_test
+module github.com/davex98/terraformTest/local_file/test
 
 go 1.15
 

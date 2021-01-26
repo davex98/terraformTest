@@ -12,7 +12,7 @@ func TestTerraformFile(t *testing.T) {
 	fileName := "helloWorld.txt"
 
 	options := terraform.WithDefaultRetryableErrors(t, &terraform.Options{
-		TerraformDir: "../local_file",
+		TerraformDir: "../terraform",
 		Vars: map[string]interface{}{
 			"file_name": fileName,
 		},
